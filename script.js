@@ -1,12 +1,3 @@
-// FORM VALIDATION
-function validateForm() {
-   let x = document.forms["myForm"]["mail"].value;
-   if(x == ""){
-      alert("Please provide a valid email");
-      return false;
-   }
-}
-
 
 let map;
 

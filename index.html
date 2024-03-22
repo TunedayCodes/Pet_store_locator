@@ -10,19 +10,18 @@
    <h1 style="text-align: center;">Pet Store Locator</h1>
    <p>Click on the map to find nearby pet stores around Lagos and Ibadan area.</p>
 
-<form name="myForm" onsubmit="return validateForm()">
-      <label for="mail">
-         I would like you to provide me with an email address:
-      </label>
-      <input type="email" id="mail" name="mail"/>
-      <button>Submit</button>
-</form>
-
 <div id="map"></div>
 <ul id="pet-stores"></ul>
 
 <footer>
-   <p>&copy; 2024 Pet Store Locator. All rights reserved.</p>
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var currentYear = new Date().getFullYear();
+          var copyrightElement = document.getElementById("copyright");
+          copyrightElement.innerText = currentYear;
+      });
+   </script>
+   <p>&copy; <span id="copyright"></span> Pet Store Locator All rights reserved.</p>
    <p>Powered by TunedayCodes.</p>
 </footer>
 

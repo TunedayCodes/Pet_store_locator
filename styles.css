@@ -90,12 +90,8 @@ input[type="email"] {
       background-color: #d8da8e;
       color: #000;
    }
-   form {
-      text-align: center;
-      justify-content: center;
-      margin-left: 150px;
-   }
-   h1 {
+
+   /* h1 {
       text-align: center;
       justify-content: center;
       margin-left: 100px;
@@ -107,7 +103,7 @@ input[type="email"] {
       text-align: center;
       justify-content: center;
       margin-left: 100px;
-   }
+   } */
 }
 
 
